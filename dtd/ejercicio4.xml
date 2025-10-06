@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE persona [
+    <!ELEMENT persona (nombre, sexo, fecha_de_nacimiento, ciudad)>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT sexo EMPTY>
+    <!ELEMENT fecha_de_nacimiento EMPTY>
+    <!ATTLIST fecha_de_nacimiento
+        dia CDATA #REQUIRED
+        mes CDATA #REQUIRED
+        anyo CDATA #FIXED "2000">
+    <!ELEMENT ciudad (#PCDATA)>
+]>
+
+
+<persona>
+    <nombre>Ezequiel</nombre>
+    <sexo></sexo>
+    <fecha_de_nacimiento dia="18" mes="11" anyo="2000"></fecha_de_nacimiento>
+    <ciudad>Barcelona</ciudad>
+</persona>

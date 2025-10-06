@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE libreria [
+    <!ELEMENT libreria (libro+, compra?)>
+    <!ELEMENT libro EMPTY>
+    <!ATTLIST libro
+        ISBN ID #REQUIRED
+        titulo CDATA #REQUIRED>
+    <!ELEMENT compra (producto, precio)>
+    <!ELEMENT producto (#PCDATA)>
+    <!ATTLIST producto ISBN IDREFS #REQUIRED>
+    <!ELEMENT precio (#PCDATA)>
+]>
+
+
+<libreria>
+    <libro ISBN="A9788497592581" titulo="El origen de las especies" />
+    <libro ISBN="A978849759251" titulo="La Celestina" />
+    <libro ISBN="A8481301264" titulo="El nombre de la Rosa" />
+    <compra>
+        <producto ISBN="A9788497592581 A8481301264"></producto>
+        <precio></precio>
+    </compra>
+</libreria>
