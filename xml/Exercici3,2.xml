@@ -1,0 +1,13 @@
+<receptes>
+    <recepta>
+        <nom></nom>
+        <fotografia></fotografia>
+        <ingredients>
+            <ingredient medida = "500 gr"></ingredient>
+        </ingredients>
+        <preparacio tiempoPreparacion="2hs">
+            <pas numero="1" cantidad "2" medida="80 gr"> </pas>
+        </preparacio>
+    </recepta>
+
+</receptes>

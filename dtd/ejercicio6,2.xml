@@ -7,7 +7,7 @@
         titulo CDATA #REQUIRED>
     <!ELEMENT compra (producto, precio)>
     <!ELEMENT producto (#PCDATA)>
-    <!ATTLIST producto ISBN IDREF #REQUIRED>
+    <!ATTLIST producto ISBN IDREFS #REQUIRED>
     <!ELEMENT precio (#PCDATA)>
 ]>
 
@@ -16,7 +16,7 @@
     <libro ISBN="A978849759251" titulo="La Celestina" />
     <libro ISBN="A8481301264" titulo="El nombre de la Rosa" />
     <compra>
-        <producto ISBN="A9788497592581"></producto>
+        <producto ISBN="A9788497592581 A8481301264"></producto>
         <precio></precio>
     </compra>
 </libreria>

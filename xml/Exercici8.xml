@@ -1,0 +1,57 @@
+<gimnasios>
+    <gimnasio>
+        <nombre>El Dor</nombre>
+        <direccion>
+            <calle>Avenida Hipotenusa</calle>
+            <numero>232</numero>
+        </direccion>
+        <propietario>Inuyasha</propietario>
+        <valoracion>
+            <puntaje>4.5</puntaje>
+            <reseñas></reseñas>
+        </valoracion>
+        <actividades>
+            <actividad>Yoga</actividad>
+            <actividad>Pilates</actividad>
+            <actividad>Crossfit</actividad>
+        </actividades>
+    </gimnasio>
+
+    <gimnasio>
+        <nombre>Aquopolis</nombre>
+        <direccion>
+            <calle>Tangente</calle>
+            <numero>111</numero>
+        </direccion>
+        <propietario>Arthur Conan</propietario>
+        <valoracion>
+            <puntaje></puntaje>
+            <resenyas></resenyas>
+        </valoracion>
+        <actividades>
+            <actividad></actividad>
+            <actividad></actividad>
+            <actividad></actividad>
+        </actividades>
+    </gimnasio>
+
+    <gimnasio>
+        <nombre>Muscle Man</nombre>
+        <direccion>
+            <calle>Avenida Angulo</calle>
+            <numero>222</numero>
+        </direccion>
+        <propietario>Son Goku</propietario>
+        <valoracion>
+            <puntaje>3.5</puntaje>
+            <resenyas>256</resenyas>
+        </valoracion>
+        <actividades>
+            <actividad>Halterofilia</actividad>
+            <actividad>Crossfit</actividad>
+            <actividad>Natacion</actividad>
+            <actividad>Atletismo</actividad>
+        </actividades>
+    </gimnasio>
+
+</gimnasios>

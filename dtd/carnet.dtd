@@ -1,4 +1,4 @@
-<!ELEMENT carnet (persona+)>
+<!ELEMENT carnet (persona+)> 
 <!ELEMENT persona EMPTY>
  <!ATTLIST persona
 nombre CDATA #REQUIRED

@@ -1,0 +1,11 @@
+<citas>
+    <pacientes>
+        <nombrePaciente>Ezequiel</nombrePaciente>
+        <apellidosPaciente>Carracedo</apellidosPaciente>
+        <telefono>123456</telefono>
+        <cita>
+            <fecha>11/08/2025</fecha>
+            <hora>15:40</hora>
+        </cita>
+    </pacientes>
+</citas>

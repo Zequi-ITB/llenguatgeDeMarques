@@ -11,7 +11,6 @@
     <!ELEMENT ciudad (#PCDATA)>
 ]>
 
-
 <persona>
     <nombre>Ezequiel</nombre>
     <sexo></sexo>

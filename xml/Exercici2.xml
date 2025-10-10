@@ -1,0 +1,33 @@
+<corredor posicio=1>Manel Roure</corredor>
+<coche electrico>Tesla</coche>
+<coche tipo combustible=”gasolina”>Seat Ibiza</coche>
+<empleado cargo="recepción" cargo="contabilidad">Jordi Ros</empleado>
+
+Corregido:
+
+<corredor posicio=”1”>Manel Roure</corredor>
+<cocheElectrico>Tesla</cocheElectrico>
+<coche tipoCombustible=”gasolina”>Seat Ibiza</coche>
+<empleado cargo="recepción" tarea="contabilidad">Jordi Ros</empleado>
+
+
+
+Escribe un código xml equivalente utilizando solo una etiqueta:
+
+<coche>
+	<marca>Seat</marca>
+	<color>Rojo</color>
+	<matricula>B3456L</matricula>
+	<conductor>Jorge</conductor>
+<conductor>Maria</conductor>
+	<alquilado>
+		<inicio>12/09/2023</inicio>
+		<fin>24/09/2023</fin>
+	</alquilado>
+</coche>
+
+
+Corregido: 
+
+<coche marca="Seat" color="Rojo" matricula="B3456L" conductores= "Jorge y Maria" inicioAlquiler = "12/09/2023" finAlquiler = "24/09/2023">
+</coche>

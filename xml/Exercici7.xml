@@ -1,0 +1,35 @@
+
+
+
+fichero1.xml
+<persona>
+	<nombre>Pere Garcia</nombre>
+</persona>
+<perro>
+	<nombre>Rufy</nombre>
+</perro>
+
+<serVivo>
+<persona>
+	<nombre>Pere Garcia</nombre>
+</persona>
+<perro>
+	<nombre>Rufy</nombre>
+</perro>
+</serVivo>
+
+
+--------------------------------------
+fichero2.xml
+<personas>
+<persona>
+	<nombre>Pere</nombre>
+	<apellido> Pérez </apellido>
+    <edad></edad>
+</persona>
+<persona>
+	<nombre></nombre>
+    <apellido2>Garcia</apellido2>
+<edad>22</edad>
+</persona>
+</personas>

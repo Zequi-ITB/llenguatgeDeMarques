@@ -1,0 +1,35 @@
+<huerto>
+    <titulo>Huerto en casa: Tomatera en maceta.</titulo>
+    <intro>Plantar una tomatera en maceta es sencillo si sigues unos pasos básicos. Es importante
+        ser constante; riega con moderación, protege del viento y coloca la maceta en un lugar con
+        luz.</intro>
+    <materiales>
+        <material>Maceta de al menos 20 litros</material>
+        <material>Sustrato universal y un poco de compost</material>
+        <material>Semillas o plantón de tomate</material>
+        <material>Palito o tutor y cuerda</material>
+    </materiales>
+    <pasos>
+        <paso numero="1">Llena la maceta con sustrato dejando 5 centímetros libres en el borde.</paso>
+        <paso numero="2">Planta la planta o coloca dos semillas a 1 centímetro de profundidad.</paso>
+        <paso numero="3">Riega suavemente y coloca el tutor junto al plantón.</paso>
+        <paso numero="4">Sitúa la maceta en un lugar soleado; gira la maceta cada semana.</paso>
+    </pasos>
+    <etapas>
+        <etapa>
+            <nombre>Germinacion</nombre>
+            <duracion>7-14 dias</duracion>
+        </etapa>
+        <etapa>
+            <nombre>Trasplante</nombre>
+            <duracion>2 semanas</duracion>
+        </etapa>
+        <etapa>
+            <nombre>Primera cosecha</nombre>
+            <duracion>8-10 semanas.</duracion>
+        </etapa>
+    </etapas>
+    <enlace>https://example.org/huerto.</enlace>
+    <imagen>https://upload.wikimedia.org/wikipedia/commons/3/3b/Tomato_je.jpg</imagen>
+    <cita>&quot;La paciencia es la mejor herramienta del jardinero.&quot;</cita>
+</huerto>
