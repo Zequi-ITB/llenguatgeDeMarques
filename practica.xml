@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE practica[
+    <!ELEMENT practica (hijos*, padres, mascotas)>
+    <!ELEMENT mascotas EMPTY>
+    <!ELEMENT hijos (hijo+)>
+    <!ELEMENT hijo (#PCDATA)>
+    <!ATTLIST hijo clave ID #REQUIRED>
+    <!ELEMENT padres (padre, madre)>
+    <!ELEMENT padre (#PCDATA)>
+    <!ELEMENT madre (#PCDATA)>
+    <!ATTLIST padre clave IDREF #REQUIRED>
+]>
+<practica>
+    <hijos>
+        <hijo clave="a5155"></hijo>
+    </hijos>
+    <padres>
+        <padre clave="a5155"></padre>
+        <madre ></madre>
+    </padres>
+    <mascotas></mascotas>
+</practica>
