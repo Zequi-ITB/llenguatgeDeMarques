@@ -1,0 +1,85 @@
+<html>
+<fieldset>
+    <legend>Ficha de Película</legend>
+    <form action="formulario.php" method="post">
+        <label for="titulo">Titulo:</label>
+        <input type="text" id="titulo" name="titulo" required><br><br>
+        <label for="director">Director:</label>
+        <input type="text" id="email" name="email" required><br><br>
+        <label for="fechaDeEstreno">Fecha de estreno:</label><br>
+        <input type="date"><br><br>
+        <label for="poster">Poster:</label>
+        <input type="file" id="poster" name="poster" accept="image/*"><br><br>
+        <label for="version">Versión:</label><br>
+        <input type="checkbox" id="imax" value="IMAX">
+        <label for="imax">IMAX </label>
+        <input type="checkbox" id="tresD" value="3D">
+        <label for="tresD">3D </label>
+        <input type="checkbox" id="full_HD" value="Full HD">
+        <label for="full_HD">Full HD </label>
+        <label for="Clasificacion">Clasificación:</label><br>
+        <input type="radio" id="tp" name="tp">
+        <label for="tp">TP</label>
+        <input type="radio" id="mes12" name="mes12">
+        <label for="mes12">+12</label>
+        <input type="radio" id="mes15" name="mes15">
+        <label for="mes15">+15</label>
+        <input type="radio" id="mes18" name="mes18">
+        <label for="mes18">+18</label>
+    </form>
+</fieldset>
+<fieldset>
+    <legend>Ficha de proyección</legend>
+    <form action="formulario.php" method="post">
+        <label for="sala">Sala:</label>
+        <select id="salas" name="salas">
+            <option value="yelmo">Cines Yelmo</option>
+            <option value="cinesa">Cinesa</option>
+            <option value="barrio">Cine de barrio</option>
+            <option value="fullhd">Cines Full Hd</option>
+        </select><br><br>
+        <textarea name="message" rows="10" cols="100">Escribe una breve sinopsis.</textarea>
+        <label for="sala">Sala:</label>
+        <select id="idioma" name="idioma">
+            <option value="ingles">Ingles</option>
+            <option value="castellano">Castellano</option>
+            <option value="catalan">Catalán</option>
+        </select><br><br>
+        <label for="sesion">Sesión:</label>
+        <input type="time" id="sesion" name="sesion" required><br><br>
+        <label for="diasProyeccion">Días de proyección:</label><br>
+        <select id="idioma" name="idioma" size="4">
+            <option value="lunes">Lunes</option>
+            <option value="martes">Martes</option>
+            <option value="miercoles">Miércoles</option>
+            <option value="jueves">Jueves</option>
+            <option value="viernes">Viernes</option>
+        </select><br>
+
+
+
+        <input type="text" id="email" name="email" required><br><br>
+        <label for="fechaDeEstreno">Fecha de estreno:</label><br>
+        <input type="date"><br><br>
+        <label for="poster">Poster:</label>
+        <input type="file" id="poster" name="poster" accept="image/*"><br><br>
+        <label for="version">Versión:</label><br>
+        <input type="checkbox" id="imax" value="IMAX">
+        <label for="imax">IMAX </label>
+        <input type="checkbox" id="tresD" value="3D">
+        <label for="tresD">3D </label>
+        <input type="checkbox" id="full_HD" value="Full HD">
+        <label for="full_HD">Full HD </label>
+        <label for="Clasificacion">Clasificación:</label><br>
+        <input type="radio" id="tp" name="tp">
+        <label for="tp">TP</label>
+        <input type="radio" id="mes12" name="mes12">
+        <label for="mes12">+12</label>
+        <input type="radio" id="mes15" name="mes15">
+        <label for="mes15">+15</label>
+        <input type="radio" id="mes18" name="mes18">
+        <label for="mes18">+18</label>
+    </form>
+</fieldset>
+
+</html>
