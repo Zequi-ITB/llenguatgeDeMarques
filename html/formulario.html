@@ -16,16 +16,18 @@
         <input type="checkbox" id="tresD" value="3D">
         <label for="tresD">3D </label>
         <input type="checkbox" id="full_HD" value="Full HD">
-        <label for="full_HD">Full HD </label>
-        <label for="Clasificacion">Clasificación:</label><br>
-        <input type="radio" id="tp" name="tp">
-        <label for="tp">TP</label>
-        <input type="radio" id="mes12" name="mes12">
-        <label for="mes12">+12</label>
-        <input type="radio" id="mes15" name="mes15">
-        <label for="mes15">+15</label>
-        <input type="radio" id="mes18" name="mes18">
-        <label for="mes18">+18</label>
+        <label for="full_HD">Full HD </label><br>
+        <p>Clasificación</p>
+        <form>
+            <input type="radio" id="tp" name="tp" value="tp">
+            <label for="tp">TP</label>
+            <input type="radio" id="mes12" name="mes12" value="mes12">
+            <label for="mes12">+12</label>
+            <input type="radio" id="mes15" name="mes15" value="mes15">
+            <label for="mes15">+15</label>
+            <input type="radio" id="mes18" name="mes18" value="mes18">
+            <label for="mes18">+18</label>
+        </form>
     </form>
 </fieldset>
 <fieldset>
@@ -38,8 +40,7 @@
             <option value="barrio">Cine de barrio</option>
             <option value="fullhd">Cines Full Hd</option>
         </select><br><br>
-        <textarea name="message" rows="10" cols="100">Escribe una breve sinopsis.</textarea>
-        <label for="sala">Sala:</label>
+        <textarea name="message" rows="10" cols="100">Escribe una breve sinopsis.</textarea><br><br>
         <select id="idioma" name="idioma">
             <option value="ingles">Ingles</option>
             <option value="castellano">Castellano</option>
@@ -55,30 +56,10 @@
             <option value="jueves">Jueves</option>
             <option value="viernes">Viernes</option>
         </select><br>
-
-
-
-        <input type="text" id="email" name="email" required><br><br>
-        <label for="fechaDeEstreno">Fecha de estreno:</label><br>
-        <input type="date"><br><br>
-        <label for="poster">Poster:</label>
-        <input type="file" id="poster" name="poster" accept="image/*"><br><br>
-        <label for="version">Versión:</label><br>
-        <input type="checkbox" id="imax" value="IMAX">
-        <label for="imax">IMAX </label>
-        <input type="checkbox" id="tresD" value="3D">
-        <label for="tresD">3D </label>
-        <input type="checkbox" id="full_HD" value="Full HD">
-        <label for="full_HD">Full HD </label>
-        <label for="Clasificacion">Clasificación:</label><br>
-        <input type="radio" id="tp" name="tp">
-        <label for="tp">TP</label>
-        <input type="radio" id="mes12" name="mes12">
-        <label for="mes12">+12</label>
-        <input type="radio" id="mes15" name="mes15">
-        <label for="mes15">+15</label>
-        <input type="radio" id="mes18" name="mes18">
-        <label for="mes18">+18</label>
+        <label for="color">Elije un color de fondo:</label>
+        <input type="color" id="color" name="color" value="#ff0000"><br><br>
+        <label for="puntuacion">Puntuación del público:</label>
+        <input type="range" id="puntuacion" name="puntuacion" min="0" max="10"><br>
     </form>
 </fieldset>
 
