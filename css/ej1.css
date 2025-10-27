@@ -1,0 +1,22 @@
+h1, span{
+    color
+: #ff0000;
+}
+
+h2{
+    color: #929292;
+    text-decoration: underline;
+}
+
+p{
+    font-style: italic;
+}
+
+ol{
+    list-style-type: upper-roman;
+}
+
+a{
+    color: #0000ff;
+;
+}
