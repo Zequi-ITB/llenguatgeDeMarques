@@ -1,22 +1,58 @@
-h1, span{
-    color
-: #ff0000;
+h1,
+span {
+    color: #ff0000;
 }
 
-h2{
-    color: #929292;
+h1~h2 {
+    color: #bebebe;
     text-decoration: underline;
 }
 
-p{
+h2:nth-of-type(2) {
+    color: #888787;
+    text-decoration: underline;
+}
+
+section h2:first-child {
+    color: #414040;
+    text-decoration: underline;
+}
+
+
+
+footer>h2 {
+    color: #000000;
+    text-decoration: underline;
+}
+
+
+p {
     font-style: italic;
 }
 
-ol{
-    list-style-type: upper-roman;
+li{
+  list-style-type: upper-roman;
 }
 
-a{
-    color: #0000ff;
-;
+a {
+    color: #15f545;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.franky {
+    color: #9f9d9d;
+    background-color: #0ba418
+}
+.avi {
+    color: #175384;
+    background-color: #5cbbe4
+}
+.boris {
+    color: #db2121;
+    background-color: #3bf64b
+}
+.tony {
+    color: #40ec0b;
+    background-color: #e40f0f
 }
