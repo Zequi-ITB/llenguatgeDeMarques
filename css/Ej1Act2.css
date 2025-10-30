@@ -3,3 +3,12 @@
     width: 200px;
     height: 200px;
 }
+
+h1{
+    background-color: black;
+    color: white;
+}
+
+.subtitle{
+    display: inline;
+}
