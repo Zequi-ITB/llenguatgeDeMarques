@@ -23,3 +23,19 @@ body {
     margin-left: 10%;
     margin-right: 10%;
 }
+
+.logo_menu{
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: #000000;
+    position: sticky;
+    top: 0;
+}
+
+.articulo_principal{
+    display: flex;
+    
+}
