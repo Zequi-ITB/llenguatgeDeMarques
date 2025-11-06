@@ -1,0 +1,25 @@
+body {
+    background-color: #000000;
+    color: white;
+}
+
+
+
+#albums {
+    background: linear-gradient(to top, #010303, #2e959c);
+}
+
+#artistas_destacados{
+    background: linear-gradient(to top, #000000, #832b86);
+}
+
+#top_canciones{
+    background-color: #0c0c0c;
+}
+
+
+.container_general {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
