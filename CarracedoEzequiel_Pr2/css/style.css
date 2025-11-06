@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Rocker&display=swap');
+
 body {
     background-color: #000000;
     color: white;
@@ -9,13 +11,28 @@ body {
     background: linear-gradient(to top, #010303, #2e959c);
 }
 
-#artistas_destacados{
+#artistas_destacados {
     background: linear-gradient(to top, #000000, #832b86);
 }
 
-#top_canciones{
+#top_canciones {
     background-color: #0c0c0c;
 }
+
+.new-rocker-regular {
+    font-family: "New Rocker", system-ui;
+    font-weight: 400;
+    font-style: normal;
+
+    
+
+}
+
+h1>span {
+    color: red;
+   
+}
+
 
 
 .container_general {
@@ -24,18 +41,38 @@ body {
     margin-right: 10%;
 }
 
-.logo_menu{
+
+
+.logo_menu {
     display: flex;
     justify-content: space-between;
     position: sticky;
-    padding-left: 10%;
-    padding-right: 10%;
-    background-color: #000000;
+    padding: 10%;
+   
     position: sticky;
     top: 0;
 }
 
-.articulo_principal{
+.menu {
     display: flex;
-    
+    justify-content:center;
+    gap: 5%;
+    list-style: none;
+    margin :0;
+    padding: 0;
+
+    background-color: #832b86;
+
+}
+
+
+
+.boton {
+    border: #832b86;
+}
+
+
+.articulo_principal {
+    display: flex;
+
 }
