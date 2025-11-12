@@ -17,6 +17,13 @@ body {
     background-color: #0c0c0c;
 }
 
+.encabezado_seccion {
+    padding-left: 10%;
+    padding-right: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
 .font_titulo_pagina {
     font-family: "New Rocker", system-ui;
     font-weight: 400;
@@ -39,7 +46,8 @@ h1>span {
     justify-content: space-between;
     padding-left: 10%;
     padding-right: 10%;
-    margin-top: 0.5%;
+    margin-top: 0.2%;
+
 
 }
 
@@ -49,12 +57,10 @@ h1>span {
 }
 
 .navegacion {
-    display: flex;
-    justify-content: space-between;
+    display:flex;
     list-style: none;
-    margin: 2%;
     margin-top: 3%;
-
+    justify-content: end;
 }
 
 a {
@@ -67,11 +73,17 @@ a {
     font-size: 110%;
     background-color: rgb(42, 45, 45);
     border: 2px solid rgb(42, 45, 45);
-    border-radius: 10%;
+    border-radius: 10px;
     padding-left: 3%;
     padding-right: 3%;
     padding-top: 1%;
     padding-bottom: 1%;
+    margin-left: 1%;
+ 
+}
+
+.boton:hover {
+    background-color: rgb(234, 4, 4);
 
 }
 
@@ -133,12 +145,12 @@ a {
     flex-wrap: wrap;
 }
 
-.titulo{
-     padding-left:10%;
+.titulo {
+    padding-left: 10%;
     padding-right: 10%;
 }
 
-.container_album{
+.container_album {
     width: 20%;
 }
 
@@ -150,7 +162,51 @@ a {
     flex-wrap: wrap;
 }
 
-.container_artista{
+.container_artista {
     width: 25%;
 }
 
+.conciertos_aside {
+    padding-left: 10%;
+    padding-right: 10%;
+    display: flex;
+}
+
+.proximos_conciertos {
+    width: 70%;
+    border: 2px solid blanchedalmond;
+    display: flex;
+}
+
+.seccion_top_canciones {
+    padding-left: 10%;
+    padding-right: 10%;
+
+}
+
+.top_lista {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid rgb(226, 139, 139);
+
+}
+
+.seccion_footer {
+    padding-left: 10%;
+    padding-right: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.titulo_footer {
+    font-family: "New Rocker", system-ui;
+    font-style: normal;
+    font-size: 100%;
+    margin-top: 0.5%;
+    border: 3px solid blanchedalmond;
+}
+
+.resaltado {
+    color: red
+}
