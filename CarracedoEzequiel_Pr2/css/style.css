@@ -57,7 +57,7 @@ h1>span {
 }
 
 .navegacion {
-    display:flex;
+    display: flex;
     list-style: none;
     margin-top: 3%;
     justify-content: end;
@@ -79,7 +79,7 @@ a {
     padding-top: 1%;
     padding-bottom: 1%;
     margin-left: 1%;
- 
+
 }
 
 .boton:hover {
@@ -172,11 +172,6 @@ a {
     display: flex;
 }
 
-.proximos_conciertos {
-    width: 70%;
-    border: 2px solid blanchedalmond;
-    display: flex;
-}
 
 .seccion_top_canciones {
     padding-left: 10%;
@@ -188,7 +183,7 @@ a {
     width: 70%;
     display: flex;
     justify-content: space-between;
-    border: 2px solid rgb(226, 139, 139);
+    border: 20px solid rgb(226, 139, 139);
 
 }
 
@@ -209,4 +204,36 @@ a {
 
 .resaltado {
     color: red
+}
+
+.proximos_conciertos {
+    width: 70%;
+    height: 0%;
+    border: 3px solid rgb(62, 92, 224);
+    border-radius: 5px;
+    display: flex;
+}
+
+
+.container_concierto {
+    border: 5px solid rgb(62, 92, 224);
+  
+    height: 50%;
+
+    div>h3{
+        font-size: 150%;
+    }
+
+    img {
+        width: 280px;
+    }
+
+    div{
+        display: flex;
+        flex-direction: column;
+        padding-left: 1rem;
+        padding-right: 5rem;
+        background-color: #832b86;
+    
+    }
 }
