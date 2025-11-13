@@ -2,7 +2,7 @@
 
 body {
     background-color: #000000;
-    color: white;
+   color: #ffffff;
 }
 
 #albums {
@@ -11,6 +11,7 @@ body {
 
 #artistas_destacados {
     background: linear-gradient(to top, #000000, #832b86);
+
 }
 
 #top_canciones {
@@ -22,6 +23,7 @@ body {
     padding-right: 10%;
     display: flex;
     justify-content: space-between;
+    width: 80%;
 }
 
 .font_titulo_pagina {
@@ -65,21 +67,22 @@ h1>span {
 
 a {
     text-decoration: none;
-    color: white;
+    color: #ffffff;
+    
 }
 
 
 .boton {
     font-size: 110%;
     background-color: rgb(42, 45, 45);
-    border: 2px solid rgb(42, 45, 45);
+    border: 1px solid rgb(84, 84, 84);
     border-radius: 10px;
     padding-left: 3%;
     padding-right: 3%;
     padding-top: 1%;
     padding-bottom: 1%;
     margin-left: 1%;
-
+   
 }
 
 .boton:hover {
@@ -109,15 +112,44 @@ a {
 
 
 
+
 }
 
 .lista_articulo_principal {
     width: 50%;
     list-style: none;
     display: flex;
-    border: 3px solid blanchedalmond;
+    
     justify-content: space-around;
+    
+    li:first-child{
+        
+        border-radius: 15px;
+        background: linear-gradient(to right,#fd0a0a, #832b86, rgb(28, 200, 212))
+        padding-box;
+        padding-left: 4%;
+        padding-right: 4%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
 
+    li:nth-child(2){
+        
+         border-radius: 15px;
+        background: rgb(148, 226, 32);
+        padding-left: 4%;
+        padding-right: 4%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        color: #178e2c !important;
+    
+    }
+    
+
+}
+
+.tipografia_negra{
+    color: #ffffff;
 }
 
 .titulo_articulo {
@@ -152,6 +184,10 @@ a {
 
 .container_album {
     width: 20%;
+    
+    img{
+        width: 70%;
+    }
 }
 
 .seccion_artistas {
@@ -160,30 +196,35 @@ a {
     padding-right: 10%;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .container_artista {
     width: 25%;
+    
+    img{
+        width: 20%;
+    }
 }
 
 .conciertos_aside {
     padding-left: 10%;
     padding-right: 10%;
     display: flex;
+    justify-content: space-between;
 }
 
 
 .seccion_top_canciones {
     padding-left: 10%;
     padding-right: 10%;
-
 }
 
 .top_lista {
     width: 70%;
     display: flex;
     justify-content: space-between;
-    border: 20px solid rgb(226, 139, 139);
+    border: 2px solid rgb(207, 141, 141);
 
 }
 
@@ -207,7 +248,6 @@ a {
 }
 
 .proximos_conciertos {
-    width: 70%;
     height: 0%;
     border: 3px solid rgb(62, 92, 224);
     border-radius: 5px;
