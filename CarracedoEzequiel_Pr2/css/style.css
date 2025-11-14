@@ -1,12 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=New+Rocker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zalando+Sans:ital,wght@0,200..900;1,200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Onest:wght@100..900&display=swap');
+
 
 body {
     background-color: #000000;
-   color: #ffffff;
+    color: #ffffff;
+
+}
+
+.tipo_general {
+    font-family: "Onest", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
 }
 
 #albums {
-    background: linear-gradient(to top, #010303, #2e959c);
+    background: linear-gradient(to top, #010303, #257278);
 }
 
 #artistas_destacados {
@@ -24,6 +35,15 @@ body {
     display: flex;
     justify-content: space-between;
     width: 80%;
+
+    h2 {
+        padding-top: 1%;
+        border-bottom: 3px solid transparent;
+        border-image: linear-gradient(to right, #fd0a0a, #832b86, rgb(28, 200, 212)) 1;
+        padding-bottom: 5px;
+
+
+    }
 }
 
 .font_titulo_pagina {
@@ -32,7 +52,6 @@ body {
     font-style: normal;
     font-size: 250%;
     margin-top: 0.5%;
-    border: 3px solid blanchedalmond;
 }
 
 h1>span {
@@ -55,7 +74,7 @@ h1>span {
 
 .tamany_navegacion {
     width: 25%;
-    border: 3px solid rgb(255, 205, 244);
+
 }
 
 .navegacion {
@@ -68,7 +87,7 @@ h1>span {
 a {
     text-decoration: none;
     color: #ffffff;
-    
+
 }
 
 
@@ -82,7 +101,7 @@ a {
     padding-top: 1%;
     padding-bottom: 1%;
     margin-left: 1%;
-   
+
 }
 
 .boton:hover {
@@ -95,60 +114,72 @@ a {
     justify-content: space-between;
     padding-left: 10%;
     padding-right: 10%;
+    padding-top: 1%;
 }
 
-.texto_articulo_principal {
-    border: 3px solid blanchedalmond
-}
+.texto_articulo_principal {}
 
 .foto_articulo_principal {
     border-radius: 5%;
-    border: 3px solid rgb(255, 154, 1);
-    width: 40%;
+    padding-bottom: 2%;
 }
 
 .footer_articulo_principal {
-    border: 3px solid blanchedalmond;
-
-
-
+    display: block;
 
 }
 
 .lista_articulo_principal {
-    width: 50%;
+
+
     list-style: none;
     display: flex;
-    
-    justify-content: space-around;
-    
-    li:first-child{
-        
-        border-radius: 15px;
-        background: linear-gradient(to right,#fd0a0a, #832b86, rgb(28, 200, 212))
-        padding-box;
-        padding-left: 4%;
-        padding-right: 4%;
-        padding-top: 2%;
-        padding-bottom: 2%;
+    gap: 15px;
+    padding: 0;
+
+    li:first-child {
+
+        border-radius: 20px;
+        background: linear-gradient(to right, #fd0a0a, #832b86, rgb(28, 200, 212)) padding-box;
+        padding-left: 1%;
+        padding-right: 1%;
+        padding-top: 1%;
+        padding-bottom: 1%;
+        font-weight: bold;
+
     }
 
-    li:nth-child(2){
-        
-         border-radius: 15px;
-        background: rgb(148, 226, 32);
-        padding-left: 4%;
-        padding-right: 4%;
-        padding-top: 2%;
-        padding-bottom: 2%;
-        color: #178e2c !important;
-    
+    li:nth-child(2) {
+
+        border-radius: 20px;
+        background: rgb(97, 147, 22);
+        padding-left: 1%;
+        padding-right: 1%;
+        padding-top: 1%;
+        padding-bottom: 1%;
+        font-weight: bold;
     }
-    
 
 }
 
-.tipografia_negra{
+.tag {
+
+    border: 1px solid rgb(84, 84, 84);
+    border-radius: 10px;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-size: small;
+}
+
+.container_tags {
+    width: 50%;
+    display: flex;
+    gap: 15px;
+}
+
+.tipografia_negra {
     color: #ffffff;
 }
 
@@ -165,16 +196,19 @@ a {
 
 .parrafo_articulo_principal {
     width: 70%;
+    text-align: justify;
 }
 
 
 
 .seccion_album {
-    border: 3px solid blanchedalmond;
+    
     padding-left: 10%;
     padding-right: 10%;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
+    
 }
 
 .titulo {
@@ -183,11 +217,22 @@ a {
 }
 
 .container_album {
-    width: 20%;
-    
-    img{
-        width: 70%;
+    width: 18%;
+    background: #3a3939;
+    border-radius: 15px;
+    margin-bottom: 2%;
+  
+    img {
+        width: 100%;
+        border-radius: 15px 15px 0 0;
+        object-fit: cover;
     }
+}
+
+.texto_album{
+    display: flex;
+ 
+    
 }
 
 .seccion_artistas {
@@ -201,8 +246,8 @@ a {
 
 .container_artista {
     width: 25%;
-    
-    img{
+
+    img {
         width: 20%;
     }
 }
@@ -257,10 +302,10 @@ a {
 
 .container_concierto {
     border: 5px solid rgb(62, 92, 224);
-  
+
     height: 50%;
 
-    div>h3{
+    div>h3 {
         font-size: 150%;
     }
 
@@ -268,12 +313,12 @@ a {
         width: 280px;
     }
 
-    div{
+    div {
         display: flex;
         flex-direction: column;
         padding-left: 1rem;
         padding-right: 5rem;
         background-color: #832b86;
-    
+
     }
 }
