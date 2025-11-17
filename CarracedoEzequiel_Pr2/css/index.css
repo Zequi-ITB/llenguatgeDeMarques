@@ -1,3 +1,6 @@
+
+/*Fondos*/
+
 #albums {
     background: linear-gradient(to top, #010303, #257278);
 }
@@ -11,12 +14,8 @@
 }
 
 
-#albums .boton{
-    background-color: #31a3ac;
-    border: 1px solid #96aeaf;
-    
-    }
 
+/*Encabezado general secciones (titulo y enlace a detalle)*/
 
 .encabezado_seccion {
     padding-left: 10%;
@@ -33,4 +32,247 @@
         border-image: linear-gradient(to right, #fd0a0a, #832b86, rgb(28, 200, 212)) 1;
 
     }
+}
+
+
+
+.container_tags {
+    width: 50%;
+    display: flex;
+    gap: 15px;
+}
+
+/* Articulo Principal*/
+
+.container_articulo_principal {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 1%;
+    padding-bottom: 2%;
+}
+
+.container_articulo_principal h2 {
+    font-size: 300%;
+}
+
+.container_articulo_principal h2>span:first-child {
+    background: linear-gradient(to right, #f81414, #e260aa, rgb(226, 16, 233));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.container_articulo_principal footer {
+    display: block;
+}
+
+.container_articulo_principal img {
+    border-radius: 5%;
+    padding-bottom: 2%;
+}
+
+.lista_articulo_principal {
+
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    padding: 0;
+}
+
+.lista_articulo_principal .boton:first-child {
+    background: linear-gradient(to right, #fd0a0a, #832b86, rgb(28, 200, 212)) padding-box;
+}
+
+.lista_articulo_principal .boton:nth-child(2) {
+    background-color: #189f1f;
+}
+
+.container_articulo_principal p {
+    width: 70%;
+    text-align: justify;
+}
+
+
+
+
+/* Seccion album */
+
+#albums .encabezado_seccion span {
+    background-color: #31a3ac;
+    border: 1px solid #96aeaf;
+}
+
+.seccion_album {
+    margin-top: 1%;
+    padding-left: 10%;
+    padding-right: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.container_album {
+    width: 18%;
+    background: #202020;
+    border-radius: 15px;
+    margin-bottom: 2%;
+    height: 32rem;
+
+    img {
+        width: 100%;
+        border-radius: 15px 15px 0 0;
+        object-fit: cover;
+    }
+}
+
+.texto_album {
+    padding-left: 2rem;
+    padding-right: 4rem;
+}
+
+.texto_album h3 {
+    margin: 0;
+    margin-top: 0.5rem;
+}
+
+.texto_album .tag {
+    margin-top: 2%;
+    font-size: x-small;
+}
+
+
+.texto_album .boton{
+background: linear-gradient(to right, #39b7d6, #285e6d) padding-box;
+ padding: .20rem .50rem;
+font-size: small;
+margin-top: 1.25rem;
+list-style: none;
+}
+
+
+.container_album footer>div {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#Barcelona {
+    background-color: rgb(74, 138, 216);
+}
+
+
+
+
+.seccion_artistas {
+
+    padding-left: 10%;
+    padding-right: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.container_artista {
+    width: 25%;
+
+    img {
+        width: 20%;
+    }
+}
+
+.conciertos_aside {
+    padding-left: 10%;
+    padding-right: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.seccion_top_canciones {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.top_lista {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.seccion_footer {
+    padding-left: 10%;
+    padding-right: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.titulo_footer {
+    font-family: "New Rocker", system-ui;
+    font-style: normal;
+    font-size: 100%;
+    margin-top: 0.5%;
+}
+
+
+
+.proximos_conciertos {
+    height: 0%;
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    display: flex;
+}
+
+
+.container_concierto {
+    border: 5px solid rgb(243, 243, 243);
+
+    height: 50%;
+
+    div>h3 {
+        font-size: 150%;
+    }
+
+    img {
+        width: 280px;
+    }
+
+    div {
+        display: flex;
+        flex-direction: column;
+        padding-left: 1rem;
+        padding-right: 5rem;
+        background-color: #832b86;
+
+    }
+}
+
+
+#artistas_destacados .boton {
+    background-color: rgb(182, 47, 171);
 }
