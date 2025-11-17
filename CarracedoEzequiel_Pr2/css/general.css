@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Rocker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zalando+Sans:ital,wght@0,200..900;1,200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Onest:wght@100..900&display=swap');
+
+body {
+    background-color: #000000;
+    color: #ffffff;
+
+}
+
+.tipo_general {
+    font-family: "Onest", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+.menu_principal {
+    position: sticky;
+    top: 0;
+    background-color: #000000;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-top: 0.2%;
+
+
+}
+
+.tamany_navegacion {
+    width: 25%;
+
+}
+
+.navegacion {
+    display: flex;
+    list-style: none;
+    margin-top: 3%;
+    justify-content: end;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+
+}
+
+.boton {
+    font-size: 110%;
+    background-color: rgb(42, 45, 45);
+    border: 1px solid rgb(84, 84, 84);
+    border-radius: 10px;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-left: 1%;
+
+}
+
+.boton:hover {
+    background-color: rgb(234, 4, 4);
+
+}
+
+.font_titulo_pagina {
+    font-family: "New Rocker", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 250%;
+    margin-top: 0.5%;
+}
+
+.resaltado {
+    color: red;
+}
+
