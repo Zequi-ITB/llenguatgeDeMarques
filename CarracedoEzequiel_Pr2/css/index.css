@@ -1,0 +1,36 @@
+#albums {
+    background: linear-gradient(to top, #010303, #257278);
+}
+
+#artistas_destacados {
+    background: linear-gradient(to top, #000000, #832b86);
+}
+
+#top_canciones {
+    background-color: #0c0c0c;
+}
+
+
+#albums .boton{
+    background-color: #31a3ac;
+    border: 1px solid #96aeaf;
+    
+    }
+
+
+.encabezado_seccion {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 1%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+
+    h2 {
+        border-bottom: 3px solid transparent;
+        padding-bottom: .5rem;
+        border-image: linear-gradient(to right, #fd0a0a, #832b86, rgb(28, 200, 212)) 1;
+
+    }
+}

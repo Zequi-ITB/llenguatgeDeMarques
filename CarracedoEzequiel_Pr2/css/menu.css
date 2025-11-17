@@ -1,0 +1,21 @@
+.menu_principal {
+    position: sticky;
+    top: 0;
+    background-color: #000000;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 0.5%;
+    margin-top: 0.2%;
+    box-sizing: border-box;
+
+
+}
+
+.navegacion {
+    display: flex;
+    list-style: none;
+    margin-top: 3%;
+    justify-content: end;
+}

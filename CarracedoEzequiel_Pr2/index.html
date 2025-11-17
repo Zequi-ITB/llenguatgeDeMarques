@@ -8,6 +8,8 @@
     <link rel="icon" type="ico" href="favicon.ico">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/general.css">
+    <link rel="stylesheet" href="css/index.css">
+
 </head>
 
 <body class="tipo_general">
@@ -68,21 +70,25 @@
         <section id="albums">
             <div class="encabezado_seccion">
                 <h2>Albums destacados de todos los tiempos</h2>
-                <span>Ver todo</span>
+                <span class="boton">Ver todo</span>
             </div>
             <div class="seccion_album">
                 <article class="container_album">
                     <img src="src/imatges/Albums/laEraDeLaBoludez.jpeg">
                     <div class="texto_album">
-                        
-                            <h3>La era de la boludez</h3>
-                            <span>1993</span>
-                            <span>Divididos</span>
-                        
+
+                        <h3>La era de la boludez</h3>
+                        <span>1993 · Divididos</span>
+
 
                         <div>
                             <footer>
-                                <p>Hard rock, funk rock, chacarera, zamba, country, reggae​</p>
+                                <div>
+                                    <span class="tag">Hard Rock</span> <span class="tag"> Funk Rock</span> <span
+                                        class="tag"> chacarera</span>
+                                    <span class="tag">Zamba </span> <span class="tag">Country</span> <span
+                                        class="tag">Reggae</span>
+                                </div>
                                 <a href="detalle.html">Mas información</a>
                             </footer>
                         </div>
@@ -132,10 +138,10 @@
                 <article class="container_album">
                     <img src="src/imatges/Albums/blueTurtles.jpg">
                     <h3>The Dream of the Blue Turtles</h3>
-                    <p title="año de lanzamiento">1985</p>
-                    <p title="artista">Sting</p>
+                    <p>1985</p>
+                    <p>Sting</p>
                     <footer>
-                        <p title="genero">Pop rock, jazz fusión, art rock, New wave</p>
+                        <p>Pop rock, jazz fusión, art rock, New wave</p>
                         <a href="detalle.html">Mas información</a>
                     </footer>
                 </article>
@@ -186,7 +192,7 @@
         <section id="artistas_destacados">
             <div class="encabezado_seccion">
                 <h2>Top artistas historicos</h2>
-                <span>Ver ranking</span>
+                <span class="boton">Ver ranking</span>
             </div>
             <div class="seccion_artistas">
                 <article class="container_artista">
@@ -247,7 +253,7 @@
     </main>
     <div class="encabezado_seccion">
         <h2>Próximos Conciertos</h2>
-        <span>Barcelona</span>
+        <span id="Barcelona" class="boton">Barcelona</span>
     </div>
     <div class="conciertos_aside">
         <section class="proximos_conciertos">
