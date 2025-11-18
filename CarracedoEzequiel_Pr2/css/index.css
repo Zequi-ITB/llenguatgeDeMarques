@@ -1,4 +1,3 @@
-
 /*Fondos*/
 
 #albums {
@@ -143,12 +142,12 @@
 }
 
 
-.texto_album .boton{
-background: linear-gradient(to right, #39b7d6, #285e6d) padding-box;
- padding: .20rem .50rem;
-font-size: small;
-margin-top: 1.25rem;
-list-style: none;
+.texto_album .boton {
+    background: linear-gradient(to right, #39b7d6, #285e6d) padding-box;
+    padding: .20rem .50rem;
+    font-size: small;
+    margin-top: 1.25rem;
+    list-style: none;
 }
 
 
@@ -156,6 +155,41 @@ list-style: none;
     display: flex;
     flex-wrap: wrap;
 }
+
+
+/* Seccion Artistas */
+
+.seccion_artistas {
+
+    padding-left: 10%;
+    padding-right: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.container_artista {
+    width: 23%;
+    display: flex;
+    background-color: #4b504b;
+    border-radius: 15px;
+    margin-bottom: 2%;
+}
+
+.container_artista img {
+    width: 40%;
+    object-fit: contain;
+    border-radius: 15px;
+}
+
+.container_artista div {
+    margin-left: 2%;
+    display: inline;
+    font-size: small;
+
+}
+
+
 
 
 
@@ -187,22 +221,7 @@ list-style: none;
 
 
 
-.seccion_artistas {
 
-    padding-left: 10%;
-    padding-right: 10%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-.container_artista {
-    width: 25%;
-
-    img {
-        width: 20%;
-    }
-}
 
 .conciertos_aside {
     padding-left: 10%;
