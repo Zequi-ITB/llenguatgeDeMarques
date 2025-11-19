@@ -34,7 +34,6 @@
 }
 
 
-
 .container_tags {
     width: 50%;
     display: flex;
@@ -84,6 +83,10 @@
     background: linear-gradient(to right, #fd0a0a, #832b86, rgb(28, 200, 212)) padding-box;
 }
 
+.lista_articulo_principal .boton:first-child:hover {
+    transition:1ms;
+}
+
 .lista_articulo_principal .boton:nth-child(2) {
     background-color: #189f1f;
 }
@@ -117,7 +120,9 @@
     background: #202020;
     border-radius: 15px;
     margin-bottom: 2%;
-    height: 32rem;
+    min-height: 27rem;
+
+
 
     img {
         width: 100%;
@@ -127,13 +132,18 @@
 }
 
 .texto_album {
-    padding-left: 2rem;
-    padding-right: 4rem;
+    padding-left: 1.5rem;
+    padding-right: 1rem;
+
+    span {
+        font-size: small;
+    }
 }
 
 .texto_album h3 {
     margin: 0;
     margin-top: 0.5rem;
+    font-size: medium;
 }
 
 .texto_album .tag {
@@ -146,8 +156,8 @@
     background: linear-gradient(to right, #39b7d6, #285e6d) padding-box;
     padding: .20rem .50rem;
     font-size: small;
-    margin-top: 1.25rem;
     list-style: none;
+    margin-top: 1.50rem;
 }
 
 
@@ -159,10 +169,9 @@
 
 /* Seccion Artistas */
 
-.seccion_artistas {
-
+.seccion_artista {
     padding-left: 10%;
-    padding-right: 10%;
+    width: 80%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -170,128 +179,196 @@
 
 .container_artista {
     width: 23%;
+    height: fit-content;
+    margin-bottom: 1%;
+    background-color: #8f086d;
+    border-radius: 15px;
     display: flex;
-    background-color: #4b504b;
-    border-radius: 15px;
-    margin-bottom: 2%;
+
 }
 
-.container_artista img {
-    width: 40%;
+.container_artista>img {
+    width: 35%;
     object-fit: contain;
-    border-radius: 15px;
-}
-
-.container_artista div {
-    margin-left: 2%;
-    display: inline;
-    font-size: small;
-
+    border-radius: 15px 0 0 15px;
 }
 
 
+.container_artista>div {
+    margin-left: 5%;
+}
 
+.container_artista h4 {
+    margin-bottom: 0.5rem;
+}
 
+.container_artista span {
+    font-size: medium;
+}
 
+.estrellas_ranking {
+    display: flex;
+    margin-top: 5%;
 
+}
 
+.estrellas_ranking img {
+    width: 10%;
+    background-image: none;
+    margin-right: 1%;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#Barcelona {
-    background-color: rgb(74, 138, 216);
 }
 
 
+/* Conciertos y aside*/
 
-
-
-
-.conciertos_aside {
+.conciertos_aside_container {
     padding-left: 10%;
     padding-right: 10%;
     display: flex;
     justify-content: space-between;
+
 }
 
+.recuadro_proximos_conciertos {
+    width: 60%;
+    height: 31rem;
+    display: flex;
+    border: 15px solid rgb(30, 142, 164);
+    border-radius: 15px;
+}
+
+.recuadro_proximos_conciertos>article:nth-child(2) {
+    border-right: 15px solid rgb(30, 142, 164);
+    border-left: 15px solid rgb(30, 142, 164);
+}
+
+.container_concierto {
+    width: 33.33%;
+
+
+    img {
+        width: 100%;
+        object-fit: contain;
+    }
+}
+
+.container_concierto>div {
+    padding-left: 5%;
+    padding-right: 3%;
+}
+
+.container_concierto>div>span {
+    font-size: small;
+}
+
+.container_concierto footer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 9px;
+    margin-top: 7%;
+
+}
+
+.container_concierto footer>span {
+    background-color: #67084f;
+    font-size: x-small;
+}
+
+
+/*Aside*/
+aside {
+    display: flex;
+    flex-direction: column;
+}
+
+.container_radio {
+    margin-bottom: 5%;
+    background-color: #202020;
+    border-radius: 15px;
+    height: 26.5rem;
+
+}
+
+.container_radio img {
+    width: 100%;
+    border-radius: 15px 15px 0 0;
+
+}
+
+.container_radio h3 {
+    padding-left: 4%;
+}
+
+.container_radio a {
+    padding-left: 4%;
+    margin-left: 4%;
+    background-color: #1b9922;
+}
+
+.container_radio a:hover {
+    background: linear-gradient(to right, #f81414, #e260aa, rgb(226, 16, 233));
+
+}
+
+.container_radio div {
+    padding-left: 4%;
+    font-weight: bold;
+    font-size: large;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+
+}
+
+
+/*Seccion top 10*/
+
+#top_canciones {
+    border: 1px solid rgb(86, 85, 85);
+    padding-bottom: 5%;
+    margin-bottom: 10%;
+}
 
 .seccion_top_canciones {
     padding-left: 10%;
     padding-right: 10%;
+
 }
 
 .top_lista {
-    width: 70%;
+    width: 60%;
     display: flex;
     justify-content: space-between;
-
-
+    padding-left: 1%;
 }
+
+.top_lista a {
+    font-style: italic;
+}
+
+
+/*Footer*/
 
 .seccion_footer {
     padding-left: 10%;
     padding-right: 10%;
     display: flex;
     justify-content: space-between;
+    margin-bottom: 2%;
 }
 
-.titulo_footer {
-    font-family: "New Rocker", system-ui;
-    font-style: normal;
-    font-size: 100%;
-    margin-top: 0.5%;
+footer .font_titulo_pagina{
+    font-size: medium ;
 }
 
+.seccion_footer span{
+    font-size: small;
+}
 
-
-.proximos_conciertos {
-    height: 0%;
-    border: 3px solid rgb(255, 255, 255);
-    border-radius: 5px;
+.seccion_footer div:nth-child(2){
     display: flex;
+    justify-content: space-between;
+    width: 12%;
 }
 
 
-.container_concierto {
-    border: 5px solid rgb(243, 243, 243);
-
-    height: 50%;
-
-    div>h3 {
-        font-size: 150%;
-    }
-
-    img {
-        width: 280px;
-    }
-
-    div {
-        display: flex;
-        flex-direction: column;
-        padding-left: 1rem;
-        padding-right: 5rem;
-        background-color: #832b86;
-
-    }
-}
-
-
-#artistas_destacados .boton {
-    background-color: rgb(182, 47, 171);
-}
