@@ -23,6 +23,9 @@ div>h4 {
 
 
 }
+div>p{
+    font-size: large;
+}
 
 .cuerpo_articulo>div {
     display: flex;
