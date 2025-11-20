@@ -18,8 +18,8 @@
         <nav>
             <ul class="navegacion">
                 <li class="boton"><a href="index.html">Home</a></li>
+                <li class="boton"><a href="albums.html">Albums</a></li>
                 <li class="boton"><a href="grupos.html">Grupos</a></li>
-                <li class="boton"><a href="detalle.html">Detalle</a></li>
                 <li class="boton"><a href="alta.html">Alta</a></li>
             </ul>
         </nav>
@@ -29,7 +29,7 @@
             <h2>¡Date de alta!</h3>
         </div>
         <div>
-            <form action="" method="post">
+            <form action="" method="get">
                 <div>
                     <label for="nombre">Nombre*:</label>
                     <input type="text" name="nombre" required>
@@ -37,14 +37,26 @@
                     <input type="text" name="apellido" required>
                 </div>
                 <div>
-                    <label for="nombre">Correo electronico*:</label>
+                    <label for="correo">Correo electronico*:</label>
                     <input type="email" name="email" required>
-                    <label for="nombre">Telefono:</label>
-                    <input type="tel" name="Telefono" required>
+                    <label for="password">Contraseña nueva*:</label>
+                    <input type="password" name="password" required>
+
                 </div>
                 <div>
                     <label for="fechaNacimiento">Fecha de Nacimiento:</label>
                     <input type="date" id="fechaNacimiento" name="fechaNacimiento">
+                    <label for="nombre">Telefono:</label>
+                    <input type="tel" name="Telefono" required>
+                </div>
+                <div>
+                    <span>¿Que eres?</span>
+                    <div>
+                        <label for="opcion1">Oyente</label><br>
+                        <input type="checkbox" id="opcion1" name="opcion1" value="oyente">
+                        <label for="opcion2">Músico</label><br>
+                        <input type="checkbox" id="opcion2" name="opcion2" value="musico">
+                    </div>
                     <label for="opciones">¿Como nos conociste?:</label>
                     <select id="opciones" name="opciones">
                         <option value="opcion1">Google</option>
@@ -53,7 +65,7 @@
                     </select>
                 </div>
                 <div id="boton">
-                    <button class="boton"   type="submit">Enviar</button>
+                    <button class="boton" type="submit">Enviar</button>
                 </div>
 
             </form>

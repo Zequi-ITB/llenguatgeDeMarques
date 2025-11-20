@@ -84,11 +84,15 @@
 }
 
 .lista_articulo_principal .boton:first-child:hover {
-    transition:1ms;
+    background: linear-gradient(to left,  #fd0a0a, #832b86, rgb(28, 200, 212)) padding-box;
 }
 
 .lista_articulo_principal .boton:nth-child(2) {
     background-color: #189f1f;
+}
+
+.lista_articulo_principal .boton:nth-child(2):hover {
+    background-color: #376c39;
 }
 
 .container_articulo_principal p {
@@ -104,6 +108,10 @@
 #albums .encabezado_seccion span {
     background-color: #31a3ac;
     border: 1px solid #96aeaf;
+}
+
+#albums .encabezado_seccion span:hover {
+    background-color: #147c83;
 }
 
 .seccion_album {
@@ -159,6 +167,11 @@
     list-style: none;
     margin-top: 1.50rem;
 }
+
+.texto_album .boton:hover {
+    background: linear-gradient(to left, #39b7d6, #285e6d) padding-box;
+}
+
 
 
 .container_album footer>div {
