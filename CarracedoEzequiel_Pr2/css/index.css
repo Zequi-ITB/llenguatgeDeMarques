@@ -347,28 +347,5 @@ aside {
 }
 
 
-/*Footer*/
-
-.seccion_footer {
-    padding-left: 10%;
-    padding-right: 10%;
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 2%;
-}
-
-footer .font_titulo_pagina{
-    font-size: medium ;
-}
-
-.seccion_footer span{
-    font-size: small;
-}
-
-.seccion_footer div:nth-child(2){
-    display: flex;
-    justify-content: space-between;
-    width: 12%;
-}
 
 

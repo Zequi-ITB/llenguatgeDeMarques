@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Ezequiel Ignacio Carracedo">
+    <title>Rockmania</title>
+    <link rel="icon" type="ico" href="favicon.ico">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/alta.css">
+
+</head>
+
+<body class="tipo_general">
+    <header class="menu_principal">
+        <h1 class="font_titulo_pagina">Rock<span>mania</span></h1>
+        <nav>
+            <ul class="navegacion">
+                <li class="boton"><a href="index.html">Home</a></li>
+                <li class="boton"><a href="grupos.html">Grupos</a></li>
+                <li class="boton"><a href="detalle.html">Detalle</a></li>
+                <li class="boton"><a href="alta.html">Alta</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="encabezado_seccion">
+            <h2>¡Date de alta!</h3>
+        </div>
+        <div>
+            <form action="" method="post">
+                <div>
+                    <label for="nombre">Nombre*:</label>
+                    <input type="text" name="nombre" required>
+                    <label for="nombre">Apellido*:</label>
+                    <input type="text" name="apellido" required>
+                </div>
+                <div>
+                    <label for="nombre">Correo electronico*:</label>
+                    <input type="email" name="email" required>
+                    <label for="nombre">Telefono:</label>
+                    <input type="tel" name="Telefono" required>
+                </div>
+                <div>
+                    <label for="fechaNacimiento">Fecha de Nacimiento:</label>
+                    <input type="date" id="fechaNacimiento" name="fechaNacimiento">
+                    <label for="opciones">¿Como nos conociste?:</label>
+                    <select id="opciones" name="opciones">
+                        <option value="opcion1">Google</option>
+                        <option value="opcion2">Amigo/colega</option>
+                        <option value="opcion3">Red social</option>
+                    </select>
+                </div>
+                <div id="boton">
+                    <button class="boton"   type="submit">Enviar</button>
+                </div>
+
+            </form>
+            <img src="src/imatges/gary_moore.jpg" alt="">
+        </div>
+
+    </main>
+    <footer class="seccion_footer">
+        <div>
+            <p class="font_titulo_pagina">Rock<span class="resaltado">mania</span></p>
+            <span>&copy; 2025 Rockmania. Todos los derechos reservados · <a
+                    href="https://maps.app.goo.gl/htboXodvyVePiQH66"> Carrer d'Aiguablava, 121, Nou Barris, 08033
+                    Barcelona </a></span>
+        </div>
+        <div>
+            <div>
+                <a href="https://www.instagram.com/">Instagram</a>
+            </div>
+            <div>
+                <a href="https://x.com/?lang=es">X</a>
+            </div>
+            <div>
+                <a href="https://x.com/?lang=es">Tik Tok</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
