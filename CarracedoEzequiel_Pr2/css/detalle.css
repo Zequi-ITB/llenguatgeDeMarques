@@ -1,0 +1,75 @@
+body{
+    margin: 0;
+    background: linear-gradient( to top, #000000, #832b86, rgb(18, 125, 133)) ;
+}
+
+article {
+    padding-left: 10%;
+    padding-right: 10%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 4%;
+}
+
+
+div>h4 {
+    
+    margin-top: 2%;
+    text-align: center;
+    font-size:xx-large;
+    border-bottom: 3px solid transparent;
+    padding-bottom: .5rem;
+    border-image: linear-gradient(to right, #fd0a0a, #832b86, rgb(28, 200, 212)) 1;
+
+
+}
+div>p{
+    font-size: large;
+}
+
+.cuerpo_articulo>div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+
+
+}
+
+
+
+img {
+    border-radius: 15px;
+    margin: auto;
+
+}
+
+
+p {
+    text-align: justify;
+    line-height: 2rem;
+
+}
+
+body>footer {
+    position: relative;
+    margin-top: 11%;
+    width: 78vw;
+}
+
+article>footer{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 1%;
+}
+
+.boton{
+    background-color:#3e3e3f;
+}
+
+.boton:hover{
+    background-color: #fd0a0a;
+    cursor: pointer;
+}
